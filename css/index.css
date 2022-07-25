@@ -19,12 +19,13 @@ nav img {
 }
 
 .nav-items {
+    color: #30387E;
+    font-size: 20px;
+    flex: 80;
+
     display: flex;
     justify-content: center;
     gap: 50px;
-    font-size: 20px;
-    color: #30387E;
-    flex: 80;
 }
 
 nav .button {
@@ -41,4 +42,29 @@ button {
 
     border: none;
     border-radius: 30px;
+}
+
+.intro-section {
+    display: flex;
+}
+
+.left-section {
+    padding-top: 150px;
+}
+
+.left-section h1 {
+    font-size: 80px;
+    color: #3E4794;
+}
+
+.left-section h4 {
+    margin: 40px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(78, 77, 77);
+}
+
+.learn-more-btn {
+    font-size: 25px !important;
+    font-weight: 600;
 }
